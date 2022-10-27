@@ -39,6 +39,9 @@ mongoose
   // .then(() => {
   //   return Recipe.create(recipesNew);
   // })
+  // .then(() => {
+  //   return Recipe.insertMany(recipesNew)
+  // })
   .then((allRecipies) => {
     console.log(allRecipies)
   })
